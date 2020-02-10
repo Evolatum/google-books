@@ -29,7 +29,7 @@ class Search extends Component {
       title:book.volumeInfo.title,
       authors:book.volumeInfo.authors||["Unknown"],
       description:book.volumeInfo.description||"",
-      image:book.volumeInfo.imageLinks?book.volumeInfo.imageLinks.thumbnail:"",
+      image:book.volumeInfo.imageLinks?book.volumeInfo.imageLinks.thumbnail:"No Image",
       link:book.volumeInfo.infoLink
     }
     API.saveBook(bookToSend)

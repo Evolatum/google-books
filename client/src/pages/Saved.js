@@ -16,7 +16,10 @@ class Saved extends Component {
   loadBooks = () => {
     API.getBooks()
       .then(res =>
-        this.setState({ books: res.data})
+        {
+          console.log(res.data)
+          this.setState({ books: res.data})
+        }
       )
       .catch(err => console.log(err));
   };
@@ -54,7 +57,7 @@ class Saved extends Component {
                   authors={book.authors}
                   description={book.description}
                   link={book.link}
-                  image={book.image}
+                  image={book.image==="No Image"?"":book.image}
                   onClick={()=>this.deleteBook(book._id)}
                   buttonText="Delete"
                 />
