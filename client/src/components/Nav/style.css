@@ -1,0 +1,18 @@
+.navbar{
+    background-color: white;
+    color: black;
+    border-bottom: 4px solid black;
+}
+
+.navbar-brand{
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+
+a{
+    color:black;
+}
+
+a:hover:focus:active{
+    color:gray !important;
+}

@@ -1,0 +1,43 @@
+.media {
+  border: 3px solid black;
+  border-radius: 1px;
+  margin: 15px 4px;
+  padding: 15px;
+}
+
+img{
+  border: 3px solid black;
+  border-radius: 1px;
+}
+
+h4{
+  font-weight: bold;
+}
+
+h5{
+  font-weight: bold;
+}
+
+.authors{
+  font-style: italic;
+}
+
+.notFound{
+  width: 128px;
+  height: 192px;
+  border: 3px solid black;
+  border-radius: 1px;
+  background: 
+         linear-gradient(to top left,
+             rgba(0,0,0,0) 0%,
+             rgba(0,0,0,0) calc(50% - 3px),
+             rgba(0,0,0,1) 50%,
+             rgba(0,0,0,0) calc(50% + 3px),
+             rgba(0,0,0,0) 100%),
+         linear-gradient(to top right,
+             rgba(0,0,0,0) 0%,
+             rgba(0,0,0,0) calc(50% - 3px),
+             rgba(0,0,0,1) 50%,
+             rgba(0,0,0,0) calc(50% + 3px),
+             rgba(0,0,0,0) 100%);
+}
