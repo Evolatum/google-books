@@ -1,0 +1,49 @@
+.btn-outline-dark{
+    color:black;
+    padding:3px 15px;
+    border: 3px solid black;
+    box-shadow: 5px 5px black;
+    border-radius: 1px;
+    margin-left:10px;
+}
+
+.btn-outline-dark:hover,.btn-outline-dark:focus:hover{
+    border-color: black;
+    background-color:gainsboro !important;
+    color:black !important;
+}
+
+.btn-outline-dark:focus{
+    color:black !important;
+    border: 3px solid black !important;
+    box-shadow: 5px 5px black !important;
+    background-color: white !important;
+    background-image: none !important;
+}
+
+.btn-outline-dark:active,.btn-outline-dark.btn-outline-dark:active{
+    position: relative;
+    left:2px;
+    top:2px;
+    color:black !important;
+    border: 3px solid black !important;
+    box-shadow: 3px 3px black !important;
+    background-color: gainsboro !important;
+    background-image: none !important;
+}
+
+.btn-outline-dark:disabled{
+    color:black;
+    border: 3px solid black;
+}
+
+.form-control{
+    border: 3px solid black;
+    border-radius: 2px;
+}
+
+.form-control:focus{
+    border-color: gray;
+    outline: 0 none;
+    box-shadow: none;
+}
