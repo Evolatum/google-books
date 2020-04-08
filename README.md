@@ -2,7 +2,7 @@
 
 This app allows users to search for books through the Google Books API.
 
-The landing page automatically searched for "harry potter" until a specific search parameter is given. 
+The landing page automatically searches for "harry potter" until a specific search parameter is given. 
 
 ![Search](https://evolatum.github.io/Portfolio/assets/images/sketchy%20books%20search.PNG)
 
